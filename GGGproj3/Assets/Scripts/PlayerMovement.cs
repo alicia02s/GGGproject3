@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private bool isGrounded;
 
     private void Start()
     {
@@ -25,7 +26,27 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.velocity = rb.velocity + new Vector2(0, 10 - rb.velocity.y);
+            if (isGrounded)
+            {
+                rb.velocity = rb.velocity + new Vector2(0, 10 - rb.velocity.y);
+            }
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        Debug.Log("collide");
+        if (other.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Ground")
+        {
+            isGrounded = false;
         }
     }
 }

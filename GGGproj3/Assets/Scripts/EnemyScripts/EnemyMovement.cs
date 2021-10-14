@@ -44,7 +44,8 @@ public class EnemyMovement : MonoBehaviour
     private void FixedUpdate() {
     	Vector2 direction = p_Player.position - transform.position;
     	direction.Normalize();
-    	e_Rb.MovePosition(e_Rb.position + direction * m_Speed * Time.fixedDeltaTime);
+    	Vector2 newPos = new Vector2(direction.x, 0);
+    	e_Rb.velocity = newPos * m_Speed;
     }
     #endregion
 

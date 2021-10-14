@@ -15,7 +15,7 @@ public class PlayerHealth : MonoBehaviour
         currHealth = MaxHealth;
     }
 
-    void TakeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         currHealth -= damage;
         if (currHealth <= 0)
@@ -26,7 +26,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        SceneManager.LoadScene("LoseScene");
+        SceneManager.LoadScene("RealLoseScene");
     }
 
 }

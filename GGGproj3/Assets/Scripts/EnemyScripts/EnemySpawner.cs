@@ -6,8 +6,12 @@ public class EnemySpawner : MonoBehaviour
 {
 	#region Editor Variables
 	[SerializeField]
-	[Tooltip("The bounds of the spawner")]
-	private Vector2 m_Bounds;
+	[Tooltip("The bounds of the spawner for the X axis")]
+	private int m_BoundsX;
+
+	[SerializeField]
+	[Tooltip("The Y value the enemies should be spawned at")]
+	private int m_BoundsY;
 
 	[SerializeField]
 	[Tooltip("A list of all enemies and their information")]
@@ -32,9 +36,9 @@ public class EnemySpawner : MonoBehaviour
 		int i = 0;
 		while (info.AlwaysSpawn || i < info.NumberToSpawn) {
 			yield return new WaitForSeconds(info.TimeToNextSpawn);
-			float xVal = m_Bounds.x / 2;
-			float yVal = m_Bounds.y / 2;
-			Vector2 spawnPos = new Vector2(Random.Range(-xVal, xVal), Random.Range(-yVal, yVal));
+			float xVal = m_BoundsX / 2;
+			float yVal = m_BoundsY;
+			Vector2 spawnPos = new Vector2(Random.Range(-xVal, xVal), yVal);
 			spawnPos += (Vector2)transform.position;
 			Instantiate(info.EnemyGameObject, spawnPos, Quaternion.identity);
 			if (!info.AlwaysSpawn) {

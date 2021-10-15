@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerMechanics.unity
     guid: b589703980d324c429df5a7e8338be27
+  - enabled: 0
+    path: Assets/Scenes/LoseScene.unity
+    guid: bd06624375a4f475da6ba51d388dd855
+  - enabled: 1
+    path: Assets/Scenes/EnemyTest.unity
+    guid: 3446216ecf5664b26b2fed376ac727bc
+  - enabled: 1
+    path: Assets/Scenes/RealLoseScene.unity
+    guid: bb0a04248457b4209b1fff030770244c
   m_configObjects: {}

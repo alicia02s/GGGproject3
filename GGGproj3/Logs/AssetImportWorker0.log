@@ -93,3 +93,31 @@ System memory in use after: 232.4 MB.
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4112.
 Total: 4.778256 ms (FindLiveObjects: 0.443730 ms CreateObjectMapping: 0.265527 ms MarkObjects: 3.928902 ms  DeleteObjects: 0.138704 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003301 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/aliciashanahan/Desktop/gdd/projects/GGGproject3/GGGproj3/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/aliciashanahan/Desktop/gdd/projects/GGGproject3/GGGproj3/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.529 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3658 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.6 MB.
+System memory in use after: 232.7 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 4116.
+Total: 3.698704 ms (FindLiveObjects: 0.284815 ms CreateObjectMapping: 0.113281 ms MarkObjects: 3.188357 ms  DeleteObjects: 0.110851 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 521.982044 seconds.
+  path: Assets/Scripts/EnemyScripts/EnemyMovement.cs
+  artifactKey: Guid(d787ded65382042c686f83a1f897392a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyScripts/EnemyMovement.cs using Guid(d787ded65382042c686f83a1f897392a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dc094932cb9e4460b90666a454f0e3') in 0.006750 seconds 

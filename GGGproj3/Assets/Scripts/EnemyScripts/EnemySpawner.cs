@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -17,9 +18,19 @@ public class EnemySpawner : MonoBehaviour
 	[Tooltip("A list of all enemies and their information")]
 	private EnemySpawnInfo[] m_Enemies;
 	#endregion
-    
+
+	static float numEnemies;
+
 	#region Initialization
 	private void Awake() {
+		for (int i = 0; i < m_Enemies.Length; i++)
+		{
+			EnemySpawnInfo info = m_Enemies[i];
+			if (!info.AlwaysSpawn)
+            {
+				numEnemies += info.NumberToSpawn;
+            }
+		}
 		StartSpawning();
 	}
 	#endregion
@@ -44,6 +55,15 @@ public class EnemySpawner : MonoBehaviour
 			if (!info.AlwaysSpawn) {
 				i++;
 			}
+		}
+	}
+
+	public static void DecreaseNumEnemies()
+    {
+		numEnemies -= 1;
+		if (numEnemies == 0)
+        {
+			SceneManager.LoadScene("HomeBase");
 		}
 	}
 	#endregion

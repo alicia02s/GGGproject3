@@ -64,8 +64,14 @@ public class EnemyMovement : MonoBehaviour
     public void DecreaseEnemyHealth(float amount) {
     	e_CurHealth -= amount;
     	if (e_CurHealth <= 0) {
-    		Destroy(gameObject);
+            Die();
     	}
+    }
+
+    private void Die()
+    {
+        EnemySpawner.DecreaseNumEnemies();
+        Destroy(gameObject);
     }
     #endregion
 }

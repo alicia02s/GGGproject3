@@ -50,6 +50,11 @@ public class EnemyMovement : MonoBehaviour
     #endregion
 
     #region Collision Methods
+    void OnCollisionEnter2D(Collision2D collision) {
+    	if (collision.gameObject.tag == "Player") {
+    		// DecreasePlayerHealth(m_Damage);
+    	}
+    }
     #endregion
 
     #region Health Methods

@@ -23,6 +23,7 @@ public class EnemySpawner : MonoBehaviour
 
 	#region Initialization
 	private void Awake() {
+		numEnemies = 0;
 		for (int i = 0; i < m_Enemies.Length; i++)
 		{
 			EnemySpawnInfo info = m_Enemies[i];
@@ -65,6 +66,7 @@ public class EnemySpawner : MonoBehaviour
         {
 			SceneManager.LoadScene("HomeBase");
 		}
+		Debug.Log(numEnemies);
 	}
 	#endregion
 }

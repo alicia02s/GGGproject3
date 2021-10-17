@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private bool isGrounded;
+    private bool m_IsGrounded;
 
     private void Start()
     {
@@ -24,29 +24,14 @@ public class PlayerMovement : MonoBehaviour
             transform.position = (Vector2)transform.position + new Vector2(5, 0) * Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && m_IsGrounded)
         {
-            if (isGrounded)
-            {
-                rb.velocity = rb.velocity + new Vector2(0, 10 - rb.velocity.y);
-            }
+            rb.velocity = rb.velocity + new Vector2(0, 10 - rb.velocity.y);
         }
     }
 
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        Debug.Log("collide");
-        if (other.gameObject.tag == "Ground")
-        {
-            isGrounded = true;
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "Ground")
-        {
-            isGrounded = false;
-        }
+    public bool isGrounded {
+        get { return m_IsGrounded; }
+        set { m_IsGrounded = value; }
     }
 }

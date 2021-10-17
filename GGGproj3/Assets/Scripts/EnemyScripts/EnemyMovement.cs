@@ -62,10 +62,14 @@ public class EnemyMovement : MonoBehaviour
     #region Health Methods
     // decreases the enemy's health, to be used by the player scripts
     public void DecreaseEnemyHealth(float amount) {
-    	e_CurHealth -= amount;
-    	if (e_CurHealth <= 0) {
-            Die();
-    	}
+        if (e_CurHealth > 0)
+        {
+            e_CurHealth -= amount;
+            if (e_CurHealth <= 0)
+            {
+                Die();
+            }
+        }
     }
 
     private void Die()

@@ -1,0 +1,2818 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &349773773208905129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 349773773208905142}
+  - component: {fileID: 1507630547435081131}
+  m_Layer: 0
+  m_Name: EaEmpty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &349773773208905142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349773773208905129}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3477175616513668572}
+  - {fileID: 3477175615505025734}
+  - {fileID: 3477175616123283139}
+  - {fileID: 3477175615723677629}
+  - {fileID: 3477175615844674312}
+  - {fileID: 7173705468524531309}
+  - {fileID: 578709630305485818}
+  - {fileID: 5673392989610429814}
+  - {fileID: 2601900237010746855}
+  - {fileID: 1297354595034513821}
+  - {fileID: 2537156977114687116}
+  - {fileID: 7182144101154626615}
+  - {fileID: 304465581399638895}
+  - {fileID: 2413155663909544705}
+  - {fileID: 6140688000006313719}
+  - {fileID: 2629975957189720480}
+  - {fileID: 7686499140107794749}
+  - {fileID: 5641446714147557633}
+  - {fileID: 5064898266351732145}
+  - {fileID: 1373933936082940527}
+  - {fileID: 5905664797216728098}
+  - {fileID: 111995940593264277}
+  - {fileID: 9000767321634062988}
+  - {fileID: 6531695642874878188}
+  - {fileID: 6061953469997854223}
+  - {fileID: 3583948612201373325}
+  - {fileID: 1102584265399351755}
+  - {fileID: 945856263997494186}
+  - {fileID: 8693146993428123797}
+  - {fileID: 3986183347528821568}
+  - {fileID: 3910577792554259738}
+  - {fileID: 3268872914516868591}
+  - {fileID: 4689001443528162738}
+  - {fileID: 2057767547557442082}
+  - {fileID: 2990201565196764348}
+  - {fileID: 1645627245272593327}
+  - {fileID: 218583178929422384}
+  - {fileID: 8333170789077673097}
+  - {fileID: 6036695009134970079}
+  - {fileID: 3926803281404751322}
+  - {fileID: 1102264810256208188}
+  - {fileID: 1503723962031269234}
+  - {fileID: 8166244194107098819}
+  - {fileID: 9163701430109295347}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1507630547435081131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349773773208905129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7065896158d34c329e3f9b604be8e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookingDirection: {x: 0, y: 0}
+--- !u!1001 &206853735116652833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &3910577792554259738 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 206853735116652833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &208576736095042017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2442474
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (39)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &3926803281404751322 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 208576736095042017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &273040668960849787
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5300001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &3986183347528821568 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 273040668960849787}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &349773772161627014
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5442476
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.24641562
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &3477175615723677629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 349773772161627014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &349773772300975923
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.6357524
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21641564
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &3477175615844674312 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 349773772300975923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &349773772447735549
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.75424767
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7535844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &3477175615505025734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 349773772447735549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &349773773586522599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.234
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &3477175616513668572 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 349773773586522599}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &349773774167519992
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8557524
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7235844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &3477175616123283139 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 349773774167519992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &371392960424135350
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &3583948612201373325 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 371392960424135350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1188954505822775772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5442476
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.24641562
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &2601900237010746855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 1188954505822775772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1217168833185410459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.6357524
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21641564
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &2629975957189720480 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 1217168833185410459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1578104722359973690
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.234
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &2413155663909544705 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 1578104722359973690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1706309539017405111
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.234
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &2537156977114687116 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 1706309539017405111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1857333732852197844
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0072475364
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8024156
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &3268872914516868591 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 1857333732852197844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2154015653876715655
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0072475364
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8024156
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &2990201565196764348 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 2154015653876715655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2325406970731884873
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2442474
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (41)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &1503723962031269234 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 2325406970731884873}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2471839486095419284
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &1645627245272593327 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 2471839486095419284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2781795794576856486
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.6357524
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21641564
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &1297354595034513821 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 2781795794576856486}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2849366836707780180
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21641564
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &1373933936082940527 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 2849366836707780180}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2888325815220692505
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &2057767547557442082 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 2888325815220692505}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3504469552115586900
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.6357524
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21641564
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &304465581399638895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 3504469552115586900}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3825295643555263150
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21641564
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &111995940593264277 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 3825295643555263150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4004647392629216267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0072475364
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8024156
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (36)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &218583178929422384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 4004647392629216267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4160084616692828049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &945856263997494186 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 4160084616692828049}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4311887835188506096
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &1102584265399351755 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 4311887835188506096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4312132498039571719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2442474
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (40)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &1102264810256208188 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 4312132498039571719}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4367419612629424065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.75424767
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7535844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &578709630305485818 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 4367419612629424065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5030413563260605176
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.0857525
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8064156
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (42)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &8166244194107098819 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 5030413563260605176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5133702280470589618
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (37)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &8333170789077673097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 5133702280470589618}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5220493960075302583
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7235844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &9000767321634062988 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 5220493960075302583}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5456054109176743624
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.0857525
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8064156
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (43)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &9163701430109295347 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 5456054109176743624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5494266793472345262
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0072475364
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8024156
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &8693146993428123797 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 5494266793472345262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6275153333510707798
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.234
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &7173705468524531309 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 6275153333510707798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6284728929480607756
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8557524
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7235844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &7182144101154626615 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 6284728929480607756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6786963765764386054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7235844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &7686499140107794749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 6786963765764386054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6970357503565904436
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &6061953469997854223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 6970357503565904436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7035703007065686732
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8557524
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7235844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &6140688000006313719 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 7035703007065686732}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7309042577314738201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7235844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &5905664797216728098 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 7309042577314738201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7448227593577304292
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2442474
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (38)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &6036695009134970079 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 7448227593577304292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7944054234355010775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21641564
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &6531695642874878188 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 7944054234355010775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8273657372091486602
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7235844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &5064898266351732145 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 8273657372091486602}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8469406471051225481
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5300001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &4689001443528162738 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 8469406471051225481}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8800101245898905933
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8557524
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7235844
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &5673392989610429814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 8800101245898905933}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8850061784571331898
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 349773773208905142}
+    m_Modifications:
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21641564
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790849633701139653, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+      propertyPath: m_Name
+      value: Ea Gate (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+--- !u!4 &5641446714147557633 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3790849633701139515, guid: 847820f14a7f048848f6554b7f21e6cf, type: 3}
+  m_PrefabInstance: {fileID: 8850061784571331898}
+  m_PrefabAsset: {fileID: 0}

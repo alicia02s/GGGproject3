@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 540179936795444496}
   - component: {fileID: 540179936795444497}
   - component: {fileID: 3400357825823381589}
+  - component: {fileID: 4099331979541358846}
   m_Layer: 0
   m_Name: Ea
   m_TagString: Untagged
@@ -96,5 +97,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4498f255b67db497ba2c6630835c4ac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SpawnPrefab: {fileID: 349773773208905129, guid: 6c99ede061ad2458695d4a8c22e496d7, type: 3}
+--- !u!114 &4099331979541358846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540179936795444502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275abd681e2ba4a018748dcf45b684bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BulletPrefab: {fileID: 349773773208905129, guid: 6c99ede061ad2458695d4a8c22e496d7, type: 3}
+  InitialVelocity: 0
   m_ShootCooldown: 3
+  canShoot: 0

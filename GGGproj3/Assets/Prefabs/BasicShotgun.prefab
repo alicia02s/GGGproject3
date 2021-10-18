@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4993883526680766803}
   - component: {fileID: 8884355552014149101}
   - component: {fileID: 810725422885210032}
+  - component: {fileID: -9075618897115333402}
   m_Layer: 0
   m_Name: BasicShotgun
   m_TagString: Untagged
@@ -96,6 +97,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ed6298627644ed1b04087a7cc4b459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-9075618897115333402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2432060636160664179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275abd681e2ba4a018748dcf45b684bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_BulletPrefab: {fileID: 3425533623868436720, guid: d12c2190a0e2340beabcfcba3ef49ebd, type: 3}
   InitialVelocity: 15
   m_ShootCooldown: 1
+  canShoot: 0

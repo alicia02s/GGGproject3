@@ -4,37 +4,24 @@ using UnityEngine;
 
 public class EaBehavior : MonoBehaviour
 {
-    [SerializeField]
-    [Tooltip("Object spawned by this weapon")]
-    private GameObject m_SpawnPrefab;
-
-    [SerializeField]
-    [Tooltip("Cooldown in between shots")]
-    private float m_ShootCooldown;
-
-    private bool canShoot;
+    private GameObject m_BulletPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
-        canShoot = true;
+        WeaponInfo info = GetComponent<WeaponInfo>();
+        info.actionFunction = Shoot;
+        m_BulletPrefab = info.m_BulletPrefab;
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Mouse0) && canShoot)
-        {
-            GameObject bullet = Instantiate(m_SpawnPrefab, new Vector2(transform.position.x, transform.position.y + 2.5f), Quaternion.Euler(new Vector3(0, 0, 0)));
-            canShoot = false;
-            StartCoroutine(Cooldown());
-        }
     }
 
-    private IEnumerator Cooldown()
+    public void Shoot()
     {
-        yield return new WaitForSeconds(m_ShootCooldown);
-        canShoot = true;
+        GameObject bullet = Instantiate(m_BulletPrefab, new Vector2(transform.position.x, transform.position.y + 2.5f), Quaternion.Euler(new Vector3(0, 0, 0)));
     }
 }

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8134634841255963713}
   - component: {fileID: 8134634841255963712}
   - component: {fileID: 8134634841255963718}
+  - component: {fileID: 5448005664008265842}
   m_Layer: 0
   m_Name: BasicPistol
   m_TagString: Untagged
@@ -96,5 +97,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20b88a4cd9ed4703930021ced354b94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5448005664008265842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8134634841255963715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275abd681e2ba4a018748dcf45b684bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_BulletPrefab: {fileID: 3425533623868436720, guid: d12c2190a0e2340beabcfcba3ef49ebd, type: 3}
   InitialVelocity: 10
+  m_ShootCooldown: 0
+  canShoot: 0

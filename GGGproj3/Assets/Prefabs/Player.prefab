@@ -160,7 +160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2e97db265e474716b031e078a2bee78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_WeaponPrefab: {fileID: 540179936795444502, guid: da372c13749be450b992497ba7c1d922, type: 3}
+  m_PrimaryWeaponPrefab: {fileID: 540179936795444502, guid: da372c13749be450b992497ba7c1d922, type: 3}
+  m_SecondaryWeaponPrefab: {fileID: 540179936795444502, guid: da372c13749be450b992497ba7c1d922, type: 3}
 --- !u!114 &757531617109332931
 MonoBehaviour:
   m_ObjectHideFlags: 0

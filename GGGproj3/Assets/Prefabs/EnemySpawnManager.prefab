@@ -43,11 +43,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a305d75527e7a4bb49983929eb719fcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BoundsX: 20
-  m_BoundsY: -3
   m_Enemies:
-  - enemyName: basic enemy
+  - enemyName: Basic Enemy
     enemyGO: {fileID: 8918147702004612165, guid: 4994d6a4f38cc4884a99a831dbc9fd61, type: 3}
     timeToSpawn: 3
     numberToSpawn: 3
     alwaysSpawn: 0
+  - enemyName: Slower More Damage
+    enemyGO: {fileID: 7804617571901856239, guid: 23069a560bfd9467cbefec547b6b805f, type: 3}
+    timeToSpawn: 4
+    numberToSpawn: 2
+    alwaysSpawn: 0
+  - enemyName: Speed Enemy
+    enemyGO: {fileID: 4323736194325903094, guid: e2c7a3e314ab142f5a14e4d95c113c9a, type: 3}
+    timeToSpawn: 6
+    numberToSpawn: 1
+    alwaysSpawn: 0
+  m_Radius: 5

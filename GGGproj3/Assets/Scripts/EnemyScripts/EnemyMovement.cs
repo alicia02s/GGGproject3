@@ -16,6 +16,10 @@ public class EnemyMovement : MonoBehaviour
 	[SerializeField]
 	[Tooltip("How much damage is dealt by the enemy")]
 	private float m_Damage;
+
+	[SerializeField]
+	[Tooltip("What the enemy drops when it is killed")]
+	private GameObject m_Drop;
 	#endregion
 
 	#region Private Variables
@@ -67,6 +71,7 @@ public class EnemyMovement : MonoBehaviour
             e_CurHealth -= amount;
             if (e_CurHealth <= 0)
             {
+            	Instantiate(m_Drop, transform.position, Quaternion.identity);
                 Die();
             }
         }

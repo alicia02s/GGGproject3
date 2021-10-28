@@ -17,10 +17,10 @@ public class BulletBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Mathf.Abs(transform.position.x) >= dimensions.x + 1 || Mathf.Abs(transform.position.y) >= dimensions.y + 1)
+       /*  if (Mathf.Abs(transform.position.x) >= dimensions.x + 1 || Mathf.Abs(transform.position.y) >= dimensions.y + 1)
         {
             Destroy(this.gameObject);
-        }
+        } */
     }
 
     void OnTriggerEnter2D(Collider2D other)

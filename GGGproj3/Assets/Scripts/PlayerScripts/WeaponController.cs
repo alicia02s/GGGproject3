@@ -18,8 +18,15 @@ public class WeaponController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PrimaryWeapon = Instantiate(m_PrimaryWeaponPrefab, new Vector2(transform.position.x, transform.position.y) , transform.rotation);
-        PrimaryWeapon.transform.parent = this.gameObject.transform;
+        if (StaticVariableController.weaponChoice != null)
+        {
+            PrimaryWeapon = Instantiate(StaticVariableController.weaponChoice, new Vector2(transform.position.x, transform.position.y), transform.rotation);
+            PrimaryWeapon.transform.parent = this.gameObject.transform;
+        } else
+        {
+            PrimaryWeapon = Instantiate(m_PrimaryWeaponPrefab, new Vector2(transform.position.x, transform.position.y), transform.rotation);
+            PrimaryWeapon.transform.parent = this.gameObject.transform;
+        }
         SecondaryWeapon = Instantiate(m_SecondaryWeaponPrefab, new Vector2(transform.position.x, transform.position.y), transform.rotation);
         SecondaryWeapon.transform.parent = this.gameObject.transform;
         SecondaryWeapon.GetComponent<SpriteRenderer>().sortingOrder = -1;

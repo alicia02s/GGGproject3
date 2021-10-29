@@ -13,6 +13,8 @@ public class CoinBehavior : MonoBehaviour
 	#region Collision Methods
 	void OnCollisionEnter2D(Collision2D other) {
 		if (other.gameObject.tag == "Player") {
+			StaticVariableController.coinCount += m_Value;
+			Debug.Log("Coins collected: " + StaticVariableController.coinCount);
 			Destroy(gameObject);
 		}
 	}

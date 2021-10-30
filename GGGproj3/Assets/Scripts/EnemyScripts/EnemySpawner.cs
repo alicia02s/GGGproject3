@@ -68,10 +68,10 @@ public class EnemySpawner : MonoBehaviour
 	public static void DecreaseNumEnemies()
     {
 		numEnemies -= 1;
-		if (numEnemies == 0)
-        {
-			SceneManager.LoadScene("HomeBase");
-		}
+		//if (numEnemies == 0)
+        //{
+		//	SceneManager.LoadScene("HomeBase");
+		//}
 		Debug.Log(numEnemies);
 	}
 	#endregion

@@ -9,6 +9,13 @@ public class TempCustomizeTextDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.GetComponent<Text>().text = "Current Weapon: " + StaticVariableController.weaponChoice.name;
+        if (StaticVariableController.weaponChoice == null)
+        {
+            gameObject.GetComponent<Text>().text = "Current weapon: " + "Basic Pistol";
+        }
+        else
+        {
+            gameObject.GetComponent<Text>().text = "Current Weapon: " + StaticVariableController.weaponChoice.name;
+        }
     }
 }

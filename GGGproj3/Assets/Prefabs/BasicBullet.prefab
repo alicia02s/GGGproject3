@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5960966073750641731}
   - component: {fileID: -4147828915134985801}
   - component: {fileID: 1500637977156581355}
+  - component: {fileID: 5497090713199592263}
   m_Layer: 0
   m_Name: BasicBullet
   m_TagString: Untagged
@@ -120,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: 2
+  Duration: 0
 --- !u!58 &1500637977156581355
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -136,3 +138,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.49999997
+--- !u!114 &5497090713199592263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425533623868436720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63abb7ec10334adfbdad47cfc18d033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Duration: 5

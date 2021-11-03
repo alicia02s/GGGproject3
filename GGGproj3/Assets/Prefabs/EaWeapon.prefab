@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 6305807833032047404}
   - component: {fileID: 3325947682644805548}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Ea Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

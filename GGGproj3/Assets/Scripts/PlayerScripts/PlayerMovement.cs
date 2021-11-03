@@ -5,8 +5,27 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private BoxCollider2D collider2D;
     private bool m_IsGrounded;
     private float subsequentJumpsRemaining;
+    private float currentSpeedMultiplier = 1;
+    private bool canDash = true;
+
+    [SerializeField]
+    [Tooltip("Player speed")]
+    private float speed;
+
+    [SerializeField]
+    [Tooltip("Dash ability speed multiplier")]
+    private float dashSpeed;
+
+    [SerializeField]
+    [Tooltip("Dash ability duration")]
+    private float dashDuration;
+
+    [SerializeField]
+    [Tooltip("Dash ability cooldown")]
+    private float dashCooldown;
 
     [SerializeField]
     [Tooltip("Strength at which the player jumps")]
@@ -23,26 +42,39 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        collider2D = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // Dash ability
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            StartCoroutine(Dash());
+            StartCoroutine(DashCooldown());
+        }
+
+        // Horizontal movement
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position = (Vector2)transform.position + new Vector2(-5, 0) * Time.deltaTime;
+            rb.velocity = rb.velocity + new Vector2(-speed * currentSpeedMultiplier - rb.velocity.x, 0);
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            transform.position = (Vector2)transform.position + new Vector2(5, 0) * Time.deltaTime;
+            rb.velocity = rb.velocity + new Vector2(speed * currentSpeedMultiplier - rb.velocity.x, 0);
+        }
+        else
+        {
+            rb.velocity = rb.velocity + new Vector2(-rb.velocity.x, 0);
         }
 
+        // Jumping
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (isGrounded)
             {
                 Jump(jumpStrength);
-                subsequentJumpsRemaining = subsequentJumps;
             }
             else if (subsequentJumpsRemaining > 0)
             {
@@ -57,8 +89,29 @@ public class PlayerMovement : MonoBehaviour
         set { m_IsGrounded = value; }
     }
 
+    public void resetJumps()
+    {
+        subsequentJumpsRemaining = subsequentJumps;
+    }
+
     private void Jump(float strength)
     {
         rb.velocity = rb.velocity + new Vector2(0, strength - rb.velocity.y);
+    }
+
+    private IEnumerator Dash()
+    {
+        currentSpeedMultiplier += dashSpeed;
+        Physics2D.IgnoreLayerCollision(6, 7, true);
+        yield return new WaitForSeconds(dashDuration);
+        Physics2D.IgnoreLayerCollision(6, 7, false);
+        currentSpeedMultiplier -= dashSpeed;
+    }
+
+    private IEnumerator DashCooldown()
+    {
+        canDash = false;
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
     }
 }

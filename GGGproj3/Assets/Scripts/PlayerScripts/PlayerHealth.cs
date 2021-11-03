@@ -10,6 +10,10 @@ public class PlayerHealth : MonoBehaviour
     private float MaxHealth;
     private float currHealth;
     // Start is called before the first frame update
+
+    [SerializeField]
+    [Tooltip("Related to armor")]
+    private float DamageMitigation;
     void Start()
     {
         currHealth = MaxHealth;
@@ -17,7 +21,8 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        currHealth -= damage;
+        currHealth -= damage * DamageMitigation;
+        Debug.Log(currHealth);
         if (currHealth <= 0)
         {
             Die();

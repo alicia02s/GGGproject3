@@ -19,6 +19,7 @@ public class FeetBehavior : MonoBehaviour
         {
             totalGround += 1;
             GetComponentInParent<PlayerMovement>().isGrounded = true;
+            GetComponentInParent<PlayerMovement>().resetJumps();
         }
     }
 

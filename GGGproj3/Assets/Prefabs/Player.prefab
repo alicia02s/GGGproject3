@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 757531617109332929}
   - component: {fileID: 757531617109332928}
   - component: {fileID: 757531617109332931}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,7 +105,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: bd9433140a69f47f08261d9d824bc0ed, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -148,6 +148,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06f1d6fab8493488ca67326bd26280e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  dashSpeed: 5
+  dashDuration: 0.25
+  dashCooldown: 4
   jumpStrength: 8
   subsequentJumpStrength: 6
   subsequentJumps: 1
@@ -163,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2e97db265e474716b031e078a2bee78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PrimaryWeaponPrefab: {fileID: 8594533842002670122, guid: 57704740500274636ad503d0e4819d13, type: 3}
+  m_PrimaryWeaponPrefab: {fileID: 2307716843813162379, guid: 8dec14585f36e4246952b14ef50567ea, type: 3}
   m_SecondaryWeaponPrefab: {fileID: 540179936795444502, guid: da372c13749be450b992497ba7c1d922, type: 3}
 --- !u!114 &757531617109332931
 MonoBehaviour:
@@ -178,6 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 10
+  DamageMitigation: 0
 --- !u!1 &2223549854093404424
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +195,7 @@ GameObject:
   - component: {fileID: 6721401445166503433}
   - component: {fileID: 873535640006651941}
   - component: {fileID: 585695632485126406}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

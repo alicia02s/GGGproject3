@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 10
-  DamageMitigation: 0
+  DamageMitigation: 1
 --- !u!1 &2223549854093404424
 GameObject:
   m_ObjectHideFlags: 0

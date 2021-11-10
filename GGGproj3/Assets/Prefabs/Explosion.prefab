@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 6754728976265895857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.4127524, y: 1.4924157, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -117,7 +117,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: 5
-  Duration: 0.1
+  force: 300
+  upwardForce: 20
+  forceRadius: 3
 --- !u!198 &1751505141744900253
 ParticleSystem:
   m_ObjectHideFlags: 0

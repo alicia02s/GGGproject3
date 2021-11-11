@@ -12,6 +12,10 @@ public class StoreDisplay : MonoBehaviour
     void Start()
     {
         coinCountDisplay.text = "You have " + StaticVariableController.coinCount.ToString() + " coins.";
-        Debug.Log(StaticVariableController.coinCount);
+    }
+
+    private void Update()
+    {
+        coinCountDisplay.text = "You have " + StaticVariableController.coinCount.ToString() + " coins.";
     }
 }

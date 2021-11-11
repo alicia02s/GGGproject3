@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private bool m_IsGrounded;
     private float subsequentJumpsRemaining;
     private float currentSpeedMultiplier = 1;
-    private bool canDash = true;
+    private bool canDash = StaticVariableController.canDash;
 
     [SerializeField]
     [Tooltip("Player speed")]
@@ -35,9 +35,9 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("Strength at which the player jumps (for multiple jumps)")]
     private float subsequentJumpStrength;
 
-    [SerializeField]
-    [Tooltip("How many extra jumps the player gets")]
-    private int subsequentJumps;
+    // [SerializeField]
+    // [Tooltip("How many extra jumps the player gets")]
+    private int subsequentJumps = StaticVariableController.subsequentJumpsRemaining;
 
     private void Start()
     {

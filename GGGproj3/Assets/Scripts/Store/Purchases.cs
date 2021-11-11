@@ -37,7 +37,7 @@ public class Purchases : MonoBehaviour
 
     public void increaseArmor()
     {
-        StaticVariableController.DamageMitigation /= 2;
+        StaticVariableController.DamageMitigation *= 0.75f;
         StaticVariableController.coinCount -= armorCost;
     }
 }

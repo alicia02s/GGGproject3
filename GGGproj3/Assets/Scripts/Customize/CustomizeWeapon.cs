@@ -7,7 +7,13 @@ public class CustomizeWeapon : MonoBehaviour
     // Start is called before the first frame update
     public void ChooseWeapon(GameObject weapon)
     {
-        StaticVariableController.weaponChoice = weapon;
-
+        if (StaticVariableController.availableWeapons.Contains(weapon) || weapon.name.Equals("BasicPistol"))
+        {
+            StaticVariableController.weaponChoice = weapon;
+        } else
+        {
+            Debug.Log("Weapon not yet purchased.");
+            // Change this so that it's reflect in the UI
+        }
     }
 }

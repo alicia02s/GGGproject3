@@ -11,8 +11,8 @@ public class PlayerHealth : MonoBehaviour
     private float currHealth;
     // Start is called before the first frame update
 
-    [SerializeField]
-    [Tooltip("Related to armor")]
+    // [SerializeField]
+    // [Tooltip("Related to armor")]
     private float DamageMitigation;
     void Start()
     {

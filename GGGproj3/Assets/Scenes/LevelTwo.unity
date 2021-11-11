@@ -350,6 +350,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 523530203, guid: d830edee96f8546e1889c3a24b874fb6, type: 3}
+      propertyPath: destination
+      value: 
+      objectReference: {fileID: 1864674276}
     - target: {fileID: 757531617109332938, guid: d830edee96f8546e1889c3a24b874fb6, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1011,6 +1015,10 @@ PrefabInstance:
     - target: {fileID: 7177331403166571604, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
       propertyPath: m_Name
       value: EnemySpawnManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571604, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
       propertyPath: m_Enemies.Array.data[0].alwaysSpawn
@@ -2623,6 +2631,11 @@ Transform:
   m_Father: {fileID: 673966911}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1864674276 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2368905173433843363, guid: 1375c538f10bb4218a5d7c1be435ee7a, type: 3}
+  m_PrefabInstance: {fileID: 2368905174032215406}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1891878203
 GameObject:
   m_ObjectHideFlags: 0

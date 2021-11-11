@@ -181,6 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 10
+  slider: {fileID: 3750450992634769927, guid: 712d41f258bd641bcae56dfbeafa35a5, type: 3}
 --- !u!1 &2223549854093404424
 GameObject:
   m_ObjectHideFlags: 0

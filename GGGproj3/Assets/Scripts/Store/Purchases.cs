@@ -26,16 +26,18 @@ public class Purchases : MonoBehaviour
     {
         StaticVariableController.subsequentJumpsRemaining = 1;
         StaticVariableController.coinCount -= doubleJumpCost;
-        Debug.Log(StaticVariableController.coinCount);
     }
 
     public void getDash()
     {
         StaticVariableController.canDash = true;
+        StaticVariableController.coinCount -= dashCost;
+
     }
 
     public void increaseArmor()
     {
         StaticVariableController.DamageMitigation /= 2;
+        StaticVariableController.coinCount -= armorCost;
     }
 }

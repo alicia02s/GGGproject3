@@ -6,14 +6,6 @@ using UnityEngine.SceneManagement;
 public class EnemySpawner : MonoBehaviour
 {
 	#region Editor Variables
-	// [SerializeField]
-	// [Tooltip("The bounds of the spawner for the X axis")]
-	// private int m_BoundsX;
-
-	// [SerializeField]
-	// [Tooltip("The Y value the enemies should be spawned at")]
-	// private int m_BoundsY;
-
 	[SerializeField]
 	[Tooltip("A list of all enemies and their information")]
 	private EnemySpawnInfo[] m_Enemies;
@@ -57,10 +49,12 @@ public class EnemySpawner : MonoBehaviour
 			float negX = playerPos.x - m_Radius;
 			float yVal = playerPos.y;
 			Vector2 spawnPos = new Vector2(Random.Range(negX, posX), yVal);
-			spawnPos += (Vector2)transform.position;
-			Instantiate(info.EnemyGameObject, spawnPos, Quaternion.identity);
-			if (!info.AlwaysSpawn) {
-				i++;
+			if (spawnPos != playerPos) {
+				spawnPos += (Vector2)transform.position;
+				Instantiate(info.EnemyGameObject, spawnPos, Quaternion.identity);
+				if (!info.AlwaysSpawn) {
+					i++;
+				}
 			}
 		}
 	}
@@ -68,10 +62,6 @@ public class EnemySpawner : MonoBehaviour
 	public static void DecreaseNumEnemies()
     {
 		numEnemies -= 1;
-		//if (numEnemies == 0)
-        //{
-		//	SceneManager.LoadScene("HomeBase");
-		//}
 		Debug.Log(numEnemies);
 	}
 	#endregion

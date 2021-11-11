@@ -10,9 +10,7 @@ public class StaticVariableController : MonoBehaviour
 
     public static ArrayList availableWeapons = new ArrayList();
 
-    public static int subsequentJumpsRemaining = 0;
+    public static float subsequentJumpsRemaining;
 
-    public static bool canDash = false;
-
-    public static float DamageMitigation = 1; // default value gives us no damage mitigation, the lower the value the greater the damage is mitigated (aka the less damage we take)
+    public static bool canDash;
 }

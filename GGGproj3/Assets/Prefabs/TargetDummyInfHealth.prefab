@@ -59,5 +59,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: TargetDummyInfHealth
       objectReference: {fileID: 0}
+    - target: {fileID: 6923086447899010795, guid: 50f10a138a9a64a5894adeb2dcc70516, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50f10a138a9a64a5894adeb2dcc70516, type: 3}

@@ -35,8 +35,6 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("Strength at which the player jumps (for multiple jumps)")]
     private float subsequentJumpStrength;
 
-    // [SerializeField]
-    // [Tooltip("How many extra jumps the player gets")]
     private int subsequentJumps = StaticVariableController.subsequentJumpsRemaining;
 
     private void Start()

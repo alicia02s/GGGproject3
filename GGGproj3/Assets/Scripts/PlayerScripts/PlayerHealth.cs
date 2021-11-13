@@ -24,6 +24,14 @@ public class PlayerHealth : MonoBehaviour
         currHealth = MaxHealth;
     }
 
+    private void Update()
+    {
+        if (transform.position.y <= -10)
+        {
+            Die();
+        }
+    }
+
     public void TakeDamage(float damage)
     {
         currHealth -= damage * DamageMitigation;

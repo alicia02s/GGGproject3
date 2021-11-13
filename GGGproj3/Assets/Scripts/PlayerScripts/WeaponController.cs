@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
+    [SerializeField]
+    [Tooltip("Default weapon.")]
+    private GameObject defaultWeapon;
+
     // [SerializeField]
     // [Tooltip("The primary weapon prefab held by the player")]
     private GameObject m_PrimaryWeaponPrefab = StaticVariableController.weaponChoice;
@@ -18,6 +22,10 @@ public class WeaponController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (m_PrimaryWeaponPrefab == null)
+        {
+            m_PrimaryWeaponPrefab = defaultWeapon;
+        }
         PrimaryWeapon = Instantiate(m_PrimaryWeaponPrefab, new Vector2(transform.position.x, transform.position.y) , transform.rotation);
         PrimaryWeapon.transform.parent = this.gameObject.transform;
         PrimaryWeapon.GetComponent<SpriteRenderer>().sortingOrder = 1;

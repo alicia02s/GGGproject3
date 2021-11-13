@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    [SerializeField]
-    [Tooltip("The primary weapon prefab held by the player")]
-    private GameObject m_PrimaryWeaponPrefab;
+    // [SerializeField]
+    // [Tooltip("The primary weapon prefab held by the player")]
+    private GameObject m_PrimaryWeaponPrefab = StaticVariableController.weaponChoice;
 
     [SerializeField]
     [Tooltip("The secondary weapon prefab held by the player")]

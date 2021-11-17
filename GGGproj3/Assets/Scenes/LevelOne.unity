@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: destination
       value: 
       objectReference: {fileID: 515140492}
+    - target: {fileID: 440770780767534372, guid: d830edee96f8546e1889c3a24b874fb6, type: 3}
+      propertyPath: destination
+      value: 
+      objectReference: {fileID: 515140492}
     - target: {fileID: 757531617109332928, guid: d830edee96f8546e1889c3a24b874fb6, type: 3}
       propertyPath: m_PrimaryWeaponPrefab
       value: 

@@ -43,7 +43,7 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void Die()
+    public void Die()
     {
         SceneManager.LoadScene("RealLoseScene");
     }

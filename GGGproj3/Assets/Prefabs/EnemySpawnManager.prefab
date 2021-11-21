@@ -59,4 +59,5 @@ MonoBehaviour:
     timeToSpawn: 6
     numberToSpawn: 1
     alwaysSpawn: 0
-  m_Radius: 5
+  m_Radius: 10
+  m_InnerRadius: 4

@@ -111,5 +111,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BulletPrefab: {fileID: 349773773208905129, guid: 6c99ede061ad2458695d4a8c22e496d7, type: 3}
   InitialVelocity: 0
-  m_ShootCooldown: 3
+  m_ShootCooldown: 2
   canShoot: 0

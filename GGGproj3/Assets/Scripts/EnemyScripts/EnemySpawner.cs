@@ -12,7 +12,11 @@ public class EnemySpawner : MonoBehaviour
 
 	[SerializeField]
 	[Tooltip("Radius from the player that the enemies should spawn at")]
-	private int m_Radius;
+	private float m_Radius;
+
+	[SerializeField]
+	[Tooltip("Radius from the player that the enemies should not spawn at")]
+	private float m_InnerRadius;
 	#endregion
 
 	static float numEnemies;
@@ -45,10 +49,16 @@ public class EnemySpawner : MonoBehaviour
 		while (info.AlwaysSpawn || i < info.NumberToSpawn) {
 			yield return new WaitForSeconds(info.TimeToNextSpawn);
 			Vector2 playerPos = FindObjectOfType<PlayerMovement>().transform.position;
-			float posX = playerPos.x + m_Radius;
-			float negX = playerPos.x - m_Radius;
-			float yVal = playerPos.y;
-			Vector2 spawnPos = new Vector2(Random.Range(negX, posX), yVal);
+			float yVal = playerPos.y + 0.5f;
+			Vector2 spawnPos = new Vector2(Random.Range(m_InnerRadius, m_Radius), 0);
+			if (Random.Range(0f,1f) > 0.3f) // Unbalanced, to make enemies spawn ahead of the player more often
+            {
+				spawnPos += new Vector2(playerPos.x, yVal);
+            }
+			else
+            {
+				spawnPos = new Vector2(playerPos.x, yVal) - spawnPos;
+			}
 			if (spawnPos != playerPos) {
 				spawnPos += (Vector2)transform.position;
 				Instantiate(info.EnemyGameObject, spawnPos, Quaternion.identity);

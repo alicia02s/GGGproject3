@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3023729530282460802
+--- !u!1001 &4870525499131024201
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,23 +9,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3108427532206057235, guid: e33c1e9fe56164bddba63936ef39c53b, type: 3}
       propertyPath: force
-      value: 80
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3108427532206057235, guid: e33c1e9fe56164bddba63936ef39c53b, type: 3}
-      propertyPath: Damage
-      value: 4
+      propertyPath: forceRadius
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6210155679678628614, guid: e33c1e9fe56164bddba63936ef39c53b, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210155679678628614, guid: e33c1e9fe56164bddba63936ef39c53b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210155679678628614, guid: e33c1e9fe56164bddba63936ef39c53b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6210155679678628614, guid: e33c1e9fe56164bddba63936ef39c53b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -69,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6754728976265895857, guid: e33c1e9fe56164bddba63936ef39c53b, type: 3}
       propertyPath: m_Name
-      value: SmallExplosion
+      value: ExplosionNoKnockback
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e33c1e9fe56164bddba63936ef39c53b, type: 3}

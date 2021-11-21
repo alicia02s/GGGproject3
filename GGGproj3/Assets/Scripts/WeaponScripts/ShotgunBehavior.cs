@@ -28,13 +28,13 @@ public class ShotgunBehavior : MonoBehaviour
         Vector2 lookingDirection = ((Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)transform.position).normalized;
         GameObject bullet = Instantiate(m_BulletPrefab, new Vector2(transform.position.x, transform.position.y), transform.rotation);
         bullet.GetComponent<Rigidbody2D>().velocity = lookingDirection * InitialVelocity;
-        bullet = Instantiate(m_BulletPrefab, new Vector2(transform.position.x, transform.position.y), transform.rotation);
+        bullet = Instantiate(m_BulletPrefab, new Vector2(transform.position.x, transform.position.y), Quaternion.Euler(new Vector3(0, 0, Mathf.Atan2(lookingDirection.y, lookingDirection.x) * Mathf.Rad2Deg + 10f)));
         bullet.GetComponent<Rigidbody2D>().velocity = Vector2Extension.Rotate(lookingDirection, 10f) * InitialVelocity;
-        bullet = Instantiate(m_BulletPrefab, new Vector2(transform.position.x, transform.position.y), transform.rotation);
+        bullet = Instantiate(m_BulletPrefab, new Vector2(transform.position.x, transform.position.y), Quaternion.Euler(new Vector3(0, 0, Mathf.Atan2(lookingDirection.y, lookingDirection.x) * Mathf.Rad2Deg + 20f)));
         bullet.GetComponent<Rigidbody2D>().velocity = Vector2Extension.Rotate(lookingDirection, 20f) * InitialVelocity;
-        bullet = Instantiate(m_BulletPrefab, new Vector2(transform.position.x, transform.position.y), transform.rotation);
+        bullet = Instantiate(m_BulletPrefab, new Vector2(transform.position.x, transform.position.y), Quaternion.Euler(new Vector3(0, 0, Mathf.Atan2(lookingDirection.y, lookingDirection.x) * Mathf.Rad2Deg - 10f)));
         bullet.GetComponent<Rigidbody2D>().velocity = Vector2Extension.Rotate(lookingDirection, -10f) * InitialVelocity;
-        bullet = Instantiate(m_BulletPrefab, new Vector2(transform.position.x, transform.position.y), transform.rotation);
+        bullet = Instantiate(m_BulletPrefab, new Vector2(transform.position.x, transform.position.y), Quaternion.Euler(new Vector3(0, 0, Mathf.Atan2(lookingDirection.y, lookingDirection.x) * Mathf.Rad2Deg - 20f)));
         bullet.GetComponent<Rigidbody2D>().velocity = Vector2Extension.Rotate(lookingDirection, -20f) * InitialVelocity;
     }
 }

@@ -21,5 +21,9 @@ public class BulletBehavior : MonoBehaviour
             Destroy(this.gameObject);
 
         }
+        else if (other.gameObject.tag == "Ground")
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

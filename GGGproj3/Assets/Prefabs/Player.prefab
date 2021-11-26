@@ -153,7 +153,7 @@ MonoBehaviour:
   dashSpeed: 5
   dashDuration: 0.25
   dashCooldown: 4
-  jumpStrength: 8
+  jumpStrength: 10
   subsequentJumpStrength: 6
 --- !u!114 &757531617109332928
 MonoBehaviour:
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultWeapon: {fileID: 8134634841255963715, guid: 59ef6d88b1ae44ff8b5509fb4a2ba0a8, type: 3}
-  m_SecondaryWeaponPrefab: {fileID: 540179936795444502, guid: da372c13749be450b992497ba7c1d922, type: 3}
+  m_SecondaryWeaponPrefab: {fileID: 8594533842002670122, guid: 57704740500274636ad503d0e4819d13, type: 3}
 --- !u!114 &757531617109332931
 MonoBehaviour:
   m_ObjectHideFlags: 0

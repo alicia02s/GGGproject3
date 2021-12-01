@@ -26,7 +26,10 @@ public class PurchasableWeapon : MonoBehaviour
     {
         if (StaticVariableController.availableWeapons.Contains(weapon))
         {
-            gameObject.GetComponent<Button>().interactable = false;
+            gameObject.GetComponent<Button>().enabled = false;
+            gameObject.GetComponentInChildren<Text>().enabled = false;
+            Image image = gameObject.GetComponentInChildren<Image>();
+            image.color = new Color(image.color.r, image.color.g, image.color.b, 0f);
         }
     }
 }

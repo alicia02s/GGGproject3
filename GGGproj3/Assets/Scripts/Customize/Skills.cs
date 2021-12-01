@@ -15,14 +15,14 @@ public class Skills : MonoBehaviour
     void Update()
     {
         Text textObject = gameObject.GetComponent<Text>();
-        textObject.text = "Skills: \n";
+        textObject.text = "[ Skills ] \n\n";
         if (StaticVariableController.subsequentJumpsRemaining > 0)
         {
-            textObject.text += "Double Jump \n";
+            textObject.text += "\t Double Jump \n";
         }
         if (StaticVariableController.canDash)
         {
-            textObject.text += "Dash \n";
+            textObject.text += "\t Dash \n";
         }
     }
 }

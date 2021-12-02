@@ -11,11 +11,19 @@ public class TempCustomizeTextDisplay : MonoBehaviour
     {
         if (StaticVariableController.weaponChoice == null)
         {
-            gameObject.GetComponent<Text>().text = "Current weapon: " + "Basic Pistol";
+            gameObject.GetComponent<Text>().text = "[ Primary Weapon ]\n\n" + "\t[ Pistol ]\n\n";
         }
         else
         {
-            gameObject.GetComponent<Text>().text = "Current Weapon: " + StaticVariableController.weaponChoice.name;
+            gameObject.GetComponent<Text>().text = "[ Primary Weapon ]\n\n" + "\t[ " + StaticVariableController.weaponChoice.name + " ]\n\n";
+        }
+        if (StaticVariableController.secondaryWeaponChoice == null)
+        {
+            gameObject.GetComponent<Text>().text += "[ Secondary Weapon ]\n\n" + "\t[ Shotgun ]";
+        }
+        else
+        {
+            gameObject.GetComponent<Text>().text += "[ Secondary Weapon ]\n\n" + "\t[ " + StaticVariableController.secondaryWeaponChoice.name + " ]";
         }
     }
 }

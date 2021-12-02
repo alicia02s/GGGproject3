@@ -38,6 +38,10 @@ public class Purchases : MonoBehaviour
     private int EACost;
 
     [SerializeField]
+    [Tooltip("How much the Wicked Weave costs.")]
+    private int wickedWeaveCost;
+
+    [SerializeField]
     [Tooltip("The Text object where the error message should be displayed.")]
     private Text thisText;
 
@@ -108,6 +112,16 @@ public class Purchases : MonoBehaviour
                 StaticVariableController.coinCount -= EACost;
                         StaticVariableController.availableWeapons.Add(weapon);
 
+            }
+        } else if (weapon.name.Equals("WickedWeave"))
+        {
+            if (StaticVariableController.coinCount - wickedWeaveCost < 0)
+            {
+                StartCoroutine(showErrorMessage("You don't have enough coints to buy the Wicked Weave.", 2));
+            } else
+            {
+                StaticVariableController.coinCount -= wickedWeaveCost;
+                StaticVariableController.availableWeapons.Add(weapon);
             }
         }
     }

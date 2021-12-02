@@ -1177,6 +1177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2109323728}
   - component: {fileID: 2109323727}
+  - component: {fileID: 2109323729}
   m_Layer: 0
   m_Name: SceneControl
   m_TagString: Untagged
@@ -1210,6 +1211,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2109323729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109323726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d384d43d4e113b4459b252de653c31e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basicPistol: {fileID: 8134634841255963715, guid: 59ef6d88b1ae44ff8b5509fb4a2ba0a8, type: 3}
+  basicShotgun: {fileID: 2432060636160664179, guid: 8ee6e8ff9d62b4d128e4a0ad5e62b328, type: 3}
 --- !u!1 &2121323477
 GameObject:
   m_ObjectHideFlags: 0

@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultWeapon: {fileID: 8134634841255963715, guid: 59ef6d88b1ae44ff8b5509fb4a2ba0a8, type: 3}
-  m_SecondaryWeaponPrefab: {fileID: 8594533842002670122, guid: 57704740500274636ad503d0e4819d13, type: 3}
+  secondaryDefaultWeapon: {fileID: 2432060636160664179, guid: 8ee6e8ff9d62b4d128e4a0ad5e62b328, type: 3}
 --- !u!114 &757531617109332931
 MonoBehaviour:
   m_ObjectHideFlags: 0

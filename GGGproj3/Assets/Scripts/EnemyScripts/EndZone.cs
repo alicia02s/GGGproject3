@@ -8,6 +8,13 @@ public class EndZone : MonoBehaviour
 	private void OnTriggerEnter2D(Collider2D other) {
 		if (other.gameObject.tag == "Player") {
 			SceneManager.LoadScene("HomeBase");
+            if (SceneManager.GetActiveScene().name.Equals("LevelOne"))
+            {
+                StaticVariableController.playerWonL1 = true;
+            } else if (SceneManager.GetActiveScene().name.Equals("LevelTwo"))
+            {
+                StaticVariableController.playerWonL2 = true;
+            }
 		}
 	}
     // Start is called before the first frame update

@@ -20,6 +20,10 @@ public class EnemyMovement : MonoBehaviour
 	[SerializeField]
 	[Tooltip("What the enemy drops when it is killed")]
 	private GameObject m_Drop;
+
+    [SerializeField]
+    [Tooltip("True if this enemy is the boss, false otherwise")]
+    private bool m_IsBoss;
 	#endregion
 
 	#region Private Variables
@@ -71,7 +75,9 @@ public class EnemyMovement : MonoBehaviour
             e_CurHealth -= amount;
             if (e_CurHealth <= 0)
             {
-            	Instantiate(m_Drop, transform.position, Quaternion.identity);
+                if (!m_IsBoss) {
+                    Instantiate(m_Drop, transform.position, Quaternion.identity);
+                }
                 Die();
             }
         }
@@ -79,7 +85,9 @@ public class EnemyMovement : MonoBehaviour
 
     private void Die()
     {
-        EnemySpawner.DecreaseNumEnemies();
+        if (!m_IsBoss) {
+            EnemySpawner.DecreaseNumEnemies();
+        }
         Destroy(gameObject);
     }
     #endregion

@@ -31,6 +31,7 @@ public class WeaponInfo : MonoBehaviour
     {
         if (canShoot)
         {
+            Debug.Log("about to shoot");
             actionFunction();
             if (m_ShootCooldown > 0)
             {

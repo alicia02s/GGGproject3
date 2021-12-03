@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 8594533842002670122}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8714, y: 0.1953, z: 0}
-  m_LocalScale: {x: 2.7428, y: 0.6094, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c0a4a330a2ccd478fafb7c12fca0740d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -97,8 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990eb6778caac4da095fe4a1a578e4b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BulletPrefab: {fileID: 1883164446409292656, guid: eda36e7956cdd46dea85731cb01695d4, type: 3}
-  m_ShootCooldown: 2
 --- !u!114 &553952327620859366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,5 +111,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BulletPrefab: {fileID: 1883164446409292656, guid: eda36e7956cdd46dea85731cb01695d4, type: 3}
   InitialVelocity: 0
-  m_ShootCooldown: 2
+  m_ShootCooldown: 1.6
   canShoot: 0

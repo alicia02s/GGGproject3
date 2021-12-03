@@ -117,8 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: 5
-  force: 300
-  upwardForce: 20
+  force: 150
+  upwardForce: 0
   forceRadius: 3
 --- !u!198 &1751505141744900253
 ParticleSystem:

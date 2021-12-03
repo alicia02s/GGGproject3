@@ -24,5 +24,9 @@ public class BulletBehavior : MonoBehaviour
             other.gameObject.GetComponent<BossEnemy>().DecreaseBossEnemyHealth(Damage);
             Destroy(this.gameObject);
         }
+        else if (other.gameObject.tag == "Ground")
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

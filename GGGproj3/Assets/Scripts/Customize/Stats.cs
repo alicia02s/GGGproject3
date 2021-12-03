@@ -15,6 +15,6 @@ public class Stats : MonoBehaviour
     void Update()
     {
         Text textObject = gameObject.GetComponent<Text>();
-        textObject.text = "Stats: \n" + "Armor: " + (1 / StaticVariableController.DamageMitigation);
+        textObject.text = "[ Stats ] \n\n" + "\t [ Armor " + (1 / StaticVariableController.DamageMitigation) + " ]";
     }
 }

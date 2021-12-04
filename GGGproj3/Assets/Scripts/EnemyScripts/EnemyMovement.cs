@@ -52,6 +52,14 @@ public class EnemyMovement : MonoBehaviour
     private void FixedUpdate() {
     	Vector2 direction = p_Player.position - transform.position;
     	direction.Normalize();
+        if (direction.x >= 0)
+        {
+            transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
+        }
+        else
+        {
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+        }
     	Vector2 newPos = new Vector2(direction.x, 0);
     	e_Rb.velocity = newPos * m_Speed;
     }

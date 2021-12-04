@@ -716,14 +716,6 @@ PrefabInstance:
       propertyPath: destination
       value: 
       objectReference: {fileID: 1630312559}
-    - target: {fileID: 757531617109332928, guid: d830edee96f8546e1889c3a24b874fb6, type: 3}
-      propertyPath: defaultWeapon
-      value: 
-      objectReference: {fileID: 8594533842002670122, guid: 57704740500274636ad503d0e4819d13, type: 3}
-    - target: {fileID: 757531617109332928, guid: d830edee96f8546e1889c3a24b874fb6, type: 3}
-      propertyPath: m_SecondaryWeaponPrefab
-      value: 
-      objectReference: {fileID: 3345440838836807737, guid: 4075c6ff3b13b4d979166c2c828119b4, type: 3}
     - target: {fileID: 757531617109332938, guid: d830edee96f8546e1889c3a24b874fb6, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1271,6 +1263,10 @@ PrefabInstance:
     - target: {fileID: 1492337346435470821, guid: 9fcea84f8e9b5456399b62a0e843f255, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1492337346435470822, guid: 9fcea84f8e9b5456399b62a0e843f255, type: 3}
+      propertyPath: m_SortingOrder
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 1492337346435470823, guid: 9fcea84f8e9b5456399b62a0e843f255, type: 3}
       propertyPath: m_Name

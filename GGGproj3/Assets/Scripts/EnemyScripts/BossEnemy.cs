@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossEnemy : MonoBehaviour
 {
@@ -126,6 +127,7 @@ public class BossEnemy : MonoBehaviour
             e_CurHealth -= amount;
             if (e_CurHealth <= 0)
             {
+                SceneManager.LoadScene("WinScene");
                 Die();
             }
         }

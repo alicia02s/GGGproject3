@@ -23,4 +23,6 @@ public class StaticVariableController : MonoBehaviour
     public static bool playerWonL2 = false;
 
     public static bool playerWonL3 = false;
+
+    public static bool playerWonL4 = false;
 }

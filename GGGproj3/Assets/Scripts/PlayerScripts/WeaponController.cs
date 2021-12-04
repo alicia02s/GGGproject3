@@ -31,7 +31,7 @@ public class WeaponController : MonoBehaviour
         PrimaryWeapon = Instantiate(m_PrimaryWeaponPrefab, new Vector2(transform.position.x, transform.position.y+ 0.5f) , transform.rotation);
         PrimaryWeapon.transform.parent = this.gameObject.transform;
         PrimaryWeapon.GetComponent<SpriteRenderer>().sortingOrder = 1;
-        if (m_PrimaryWeaponPrefab == null)
+        if (m_SecondaryWeaponPrefab == null)
         {
             m_SecondaryWeaponPrefab = secondaryDefaultWeapon;
         }
@@ -51,5 +51,13 @@ public class WeaponController : MonoBehaviour
         {
             SecondaryWeapon.GetComponent<WeaponInfo>().Action();
         }
+    }
+
+    public void GiveSecondary(GameObject secondary)
+    {
+        m_SecondaryWeaponPrefab = secondary;
+        SecondaryWeapon = Instantiate(m_SecondaryWeaponPrefab, new Vector2(transform.position.x, transform.position.y + 0.3f), transform.rotation);
+        SecondaryWeapon.transform.parent = this.gameObject.transform;
+        SecondaryWeapon.GetComponent<SpriteRenderer>().sortingOrder = -1;
     }
 }

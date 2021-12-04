@@ -1124,6 +1124,91 @@ Transform:
   m_Father: {fileID: 448578450}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1168953952
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7177331403166571604, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_Name
+      value: EnemySpawnManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_Radius
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_InnerRadius
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_Enemies.Array.data[0].alwaysSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_Enemies.Array.data[1].alwaysSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_Enemies.Array.data[1].timeToSpawn
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_Enemies.Array.data[2].alwaysSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_Enemies.Array.data[2].timeToSpawn
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25914547
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.026956031
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0036118985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
 --- !u!1001 &1295979369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2351,7 +2436,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 10
+  m_Radius: 12
 --- !u!1001 &4526876992529916820
 PrefabInstance:
   m_ObjectHideFlags: 0

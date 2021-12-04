@@ -21,7 +21,18 @@ public class PistolBehavior : MonoBehaviour
     void Update()
     {
         Vector2 lookingDirection = ((Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)transform.position).normalized;
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, Mathf.Atan2(lookingDirection.y, lookingDirection.x) * Mathf.Rad2Deg));
+        float z = Mathf.Atan2(lookingDirection.y, lookingDirection.x) * Mathf.Rad2Deg;
+        if (z < 0)
+        {
+            z += 360;
+        }
+        float x = 0;
+        if (z > 90 && z < 270)
+        {
+            x = 180;
+            z = 360 - z;
+        }
+        transform.rotation = Quaternion.Euler(new Vector3(x, 0, z));
     }
 
     public void Shoot()

@@ -1930,7 +1930,7 @@ PrefabInstance:
     - target: {fileID: 757531617109332928, guid: d830edee96f8546e1889c3a24b874fb6, type: 3}
       propertyPath: defaultWeapon
       value: 
-      objectReference: {fileID: 3345440838836807737, guid: 4075c6ff3b13b4d979166c2c828119b4, type: 3}
+      objectReference: {fileID: 2307716843813162379, guid: 8dec14585f36e4246952b14ef50567ea, type: 3}
     - target: {fileID: 757531617109332928, guid: d830edee96f8546e1889c3a24b874fb6, type: 3}
       propertyPath: m_SecondaryWeaponPrefab
       value: 

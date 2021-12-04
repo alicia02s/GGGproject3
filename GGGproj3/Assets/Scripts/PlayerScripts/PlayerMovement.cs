@@ -57,10 +57,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             rb.velocity = rb.velocity + new Vector2(-speed * currentSpeedMultiplier - rb.velocity.x, 0);
+            transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
         }
         else if (Input.GetKey(KeyCode.D))
         {
             rb.velocity = rb.velocity + new Vector2(speed * currentSpeedMultiplier - rb.velocity.x, 0);
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
         }
         else
         {

@@ -28,14 +28,14 @@ public class WeaponController : MonoBehaviour
         {
             m_PrimaryWeaponPrefab = defaultWeapon;
         }
-        PrimaryWeapon = Instantiate(m_PrimaryWeaponPrefab, new Vector2(transform.position.x, transform.position.y) , transform.rotation);
+        PrimaryWeapon = Instantiate(m_PrimaryWeaponPrefab, new Vector2(transform.position.x, transform.position.y+ 0.5f) , transform.rotation);
         PrimaryWeapon.transform.parent = this.gameObject.transform;
         PrimaryWeapon.GetComponent<SpriteRenderer>().sortingOrder = 1;
         if (m_PrimaryWeaponPrefab == null)
         {
             m_SecondaryWeaponPrefab = secondaryDefaultWeapon;
         }
-        SecondaryWeapon = Instantiate(m_SecondaryWeaponPrefab, new Vector2(transform.position.x, transform.position.y), transform.rotation);
+        SecondaryWeapon = Instantiate(m_SecondaryWeaponPrefab, new Vector2(transform.position.x, transform.position.y + 0.3f), transform.rotation);
         SecondaryWeapon.transform.parent = this.gameObject.transform;
         SecondaryWeapon.GetComponent<SpriteRenderer>().sortingOrder = -1;
     }

@@ -77,6 +77,14 @@ public class BossEnemy : MonoBehaviour
     	while (ShootPlayer) {
     		PrimaryWeapon.GetComponent<WeaponInfo>().Action();
     		yield return new WaitForSeconds(0.1f);
+    		PrimaryWeapon.GetComponent<WeaponInfo>().Action();
+    		yield return new WaitForSeconds(0.1f);
+    		PrimaryWeapon.GetComponent<WeaponInfo>().Action();
+    		yield return new WaitForSeconds(0.1f);
+    		PrimaryWeapon.GetComponent<WeaponInfo>().Action();
+    		yield return new WaitForSeconds(0.1f);
+    		PrimaryWeapon.GetComponent<WeaponInfo>().Action();
+    		yield return new WaitForSeconds(0.5f);
     	}
     	
     }

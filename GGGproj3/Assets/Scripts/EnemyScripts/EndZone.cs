@@ -15,7 +15,15 @@ public class EndZone : MonoBehaviour
             {
                 StaticVariableController.playerWonL2 = true;
             }
-		}
+            else if (SceneManager.GetActiveScene().name.Equals("LevelThree"))
+            {
+                StaticVariableController.playerWonL3 = true;
+            }
+            else if (SceneManager.GetActiveScene().name.Equals("LevelFour"))
+            {
+                StaticVariableController.playerWonL4 = true;
+            }
+        }
 	}
     // Start is called before the first frame update
     void Start()

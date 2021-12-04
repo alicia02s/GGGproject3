@@ -396,6 +396,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemySpawnManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_Enemies.Array.data[0].alwaysSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_Enemies.Array.data[1].alwaysSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177331403166571605, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
+      propertyPath: m_Enemies.Array.data[2].alwaysSpawn
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7177331403166571606, guid: 681dfca55ff0d4d76b153bf8bb0ac47f, type: 3}
       propertyPath: m_RootOrder
       value: 3

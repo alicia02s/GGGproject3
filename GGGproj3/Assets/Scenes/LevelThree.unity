@@ -2055,6 +2055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: background3
       objectReference: {fileID: 0}
+    - target: {fileID: 4969930550241271109, guid: f0bdd93cd17854de4911d29dc245d2fd, type: 3}
+      propertyPath: m_SortingOrder
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 4969930550241271110, guid: f0bdd93cd17854de4911d29dc245d2fd, type: 3}
       propertyPath: m_RootOrder
       value: 6

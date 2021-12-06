@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     [Tooltip("Starting player health")]
     private float MaxHealth;
     private float currHealth;
+    private Animator animator;
 
     private Slider slider;
     // Start is called before the first frame update
@@ -22,6 +23,9 @@ public class PlayerHealth : MonoBehaviour
         slider = FindObjectOfType<Slider>();
         SetSliderValue(1);
         currHealth = MaxHealth;
+
+        //animation
+        animator = animator.GetComponent<Animator>();
     }
 
     private void Update()
@@ -29,6 +33,9 @@ public class PlayerHealth : MonoBehaviour
         if (transform.position.y <= -20)
         {
             Die();
+
+            //death animation
+            animator.SetFloat("Health", 0);
         }
     }
 

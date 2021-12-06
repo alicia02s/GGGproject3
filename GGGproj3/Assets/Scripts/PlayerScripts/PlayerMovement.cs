@@ -37,10 +37,17 @@ public class PlayerMovement : MonoBehaviour
 
     private int subsequentJumps = StaticVariableController.subsequentJumpsRemaining;
 
+
+    //animation
+    private Animator animator;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         collider2D = GetComponent<BoxCollider2D>();
+
+        //animtion
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -58,15 +65,23 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = rb.velocity + new Vector2(-speed * currentSpeedMultiplier - rb.velocity.x, 0);
             transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
+
+            //walking left animtion
+            animator.SetFloat("Left", 1);
         }
         else if (Input.GetKey(KeyCode.D))
         {
             rb.velocity = rb.velocity + new Vector2(speed * currentSpeedMultiplier - rb.velocity.x, 0);
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+
+            //walking right animation
+            animator.SetFloat("Right", 1);
         }
         else
         {
             rb.velocity = rb.velocity + new Vector2(-rb.velocity.x, 0);
+            animator.SetFloat("Left", 0);
+            animator.SetFloat("Right", 0);
         }
 
         // Jumping
@@ -81,6 +96,9 @@ public class PlayerMovement : MonoBehaviour
                 Jump(subsequentJumpStrength);
                 subsequentJumpsRemaining--;
             }
+
+            //jump animtion trigger
+            animator.SetTrigger("Jump");
         }
     }
 

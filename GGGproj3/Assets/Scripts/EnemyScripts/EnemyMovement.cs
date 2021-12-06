@@ -33,6 +33,8 @@ public class EnemyMovement : MonoBehaviour
 	private Rigidbody2D e_Rb;
 	// transform of the player
 	private Transform p_Player;
+    //animation
+    private Animator animator;
 	#endregion
 
 	#region Initialization
@@ -44,6 +46,9 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start() {
         p_Player = FindObjectOfType<PlayerMovement>().transform;
+
+        //animation
+        animator = GetComponent<Animator>();
     }
     #endregion
     
@@ -87,6 +92,9 @@ public class EnemyMovement : MonoBehaviour
                     Instantiate(m_Drop, transform.position, Quaternion.identity);
                 }
                 Die();
+
+                //Enemy death animation
+                animator.SetFloat("Health", 0);
             }
         }
     }
